@@ -1,0 +1,158 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> How to Add an Image to Your Academic Homepage | Dongjie Wu </title> <meta name="author" content="Dongjie Wu"> <meta name="description" content="A short tutorial on adding images to an al-folio site — the profile picture on the homepage and inline images in posts."> <meta name="keywords" content="autonomous-navigation, unmanned-systems, artificial-intelligence, mobile-robotics"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://jackie2455.github.io/blog/2024/how-to-add-images/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Dongjie Wu </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">How to Add an Image to Your Academic Homepage</h1> <p class="post-meta"> Created on June 01, 2024 </p> <p class="post-tags"> <a href="/blog/2024"> <i class="fa-solid fa-calendar fa-sm"></i> 2024 </a>   ·   <a href="/blog/tag/tutorial"> <i class="fa-solid fa-hashtag fa-sm"></i> tutorial</a>   <a href="/blog/tag/images"> <i class="fa-solid fa-hashtag fa-sm"></i> images</a>   ·   <a href="/blog/category/sample-posts"> <i class="fa-solid fa-tag fa-sm"></i> sample-posts</a> </p> </header> <article class="post-content"> <div id="markdown-content"> <p>This is a quick, copy-paste tutorial for adding images to your <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> homepage. There are two common cases: <strong>(1) the profile picture</strong> on the home page, and <strong>(2) inline images</strong> inside a page or blog post.</p> <h2 id="1-the-profile-picture-homepage-avatar">1) The profile picture (homepage avatar)</h2> <p>The homepage shows your photo next to your biography. Two steps:</p> <p><strong>Step 1 — put your photo in the images folder.</strong> Copy your image into <code class="language-plaintext highlighter-rouge">assets/img/</code> and give it a name. For example, this site uses <code class="language-plaintext highlighter-rouge">assets/img/prof_pic.jpg</code>:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cp </span>path/to/your-photo.jpg assets/img/prof_pic.jpg
+</code></pre></div></div> <p><strong>Step 2 — point <code class="language-plaintext highlighter-rouge">about.md</code> to it.</strong> Open <code class="language-plaintext highlighter-rouge">_pages/about.md</code> and set the <code class="language-plaintext highlighter-rouge">profile.image</code> field to your file name. Set <code class="language-plaintext highlighter-rouge">image_circular: true</code> if you want it cropped into a circle:</p> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">profile</span><span class="pi">:</span>
+  <span class="na">align</span><span class="pi">:</span> <span class="s">right</span>
+  <span class="na">image</span><span class="pi">:</span> <span class="s">prof_pic.jpg</span>      <span class="c1"># the file name inside assets/img/</span>
+  <span class="na">image_circular</span><span class="pi">:</span> <span class="kc">true</span>     <span class="c1"># true = circular avatar</span>
+  <span class="na">more_info</span><span class="pi">:</span> <span class="pi">&gt;</span>
+    <span class="s">&lt;p&gt;School of Marine Engineering, Jimei University&lt;/p&gt;</span>
+    <span class="s">&lt;p&gt;Email: you@example.com&lt;/p&gt;</span>
+</code></pre></div></div> <p>That’s it — the homepage will now show your profile photo.</p> <h2 id="2-inline-images-in-a-post">2) Inline images in a post</h2> <p>To show an image inside a blog post or page, put the file in <code class="language-plaintext highlighter-rouge">assets/img/</code> and render it with the <code class="language-plaintext highlighter-rouge">figure.liquid</code> include (this is the al-folio way, giving you responsive sizing and captions):</p> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog-profile-pic-480.webp 480w,/assets/img/blog-profile-pic-800.webp 800w,/assets/img/blog-profile-pic-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/blog-profile-pic.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> <div class="caption"> The profile image above is rendered with the <code>figure.liquid</code> include and <code>zoomable=true</code>. </div> <p>You can also write a plain Markdown image:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">My profile photo</span><span class="p">](</span><span class="sx">/assets/img/blog-profile-pic.png</span><span class="p">)</span>
+</code></pre></div></div> <p>Which looks like this:</p> <p><img src="/assets/img/blog-profile-pic.png" alt="My profile photo"></p> <h2 id="tips">Tips</h2> <ul> <li> <strong>Where images live:</strong> always under <code class="language-plaintext highlighter-rouge">assets/img/</code> (the <code class="language-plaintext highlighter-rouge">path</code> is relative to the site root, e.g. <code class="language-plaintext highlighter-rouge">assets/img/your-image.png</code>).</li> <li> <strong>Keep them small:</strong> a profile photo around 180×180 px and under ~50 KB loads fast.</li> <li> <strong>Post thumbnail:</strong> set <code class="language-plaintext highlighter-rouge">thumbnail: assets/img/your-image.png</code> in the post’s front matter to show a small image on the blog list card.</li> <li> <strong>Zoomable:</strong> add <code class="language-plaintext highlighter-rouge">zoomable=true</code> to <code class="language-plaintext highlighter-rouge">figure.liquid</code> so readers can click to enlarge.</li> </ul> <p>Feel free to delete this example post once you’ve got the hang of it. Happy publishing!</p> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Dongjie Wu. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted on <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-publications",
+          title: "publications",
+          description: "Publications grouped by type (journal, conference, patents & software), in reversed chronological order. Generated by jekyll-scholar.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "My research projects on unmanned systems localisation and intelligent navigation.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Curriculum vitae of Dongjie Wu. You can download the PDF via the button above.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "post-how-to-add-an-image-to-your-academic-homepage",
+        
+          title: "How to Add an Image to Your Academic Homepage",
+        
+        description: "A short tutorial on adding images to an al-folio site — the profile picture on the homepage and inline images in posts.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/how-to-add-images/";
+          
+        },
+      },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "news-a-simple-inline-announcement",
+          title: 'A simple inline announcement.',
+          description: "",
+          section: "News",},{id: "news-a-long-announcement-with-details",
+          title: 'A long announcement with details',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
+            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+          title: 'A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">',
+          description: "",
+          section: "News",},{id: "projects-resilient-multimodal-localisation-for-near-shore-usvs",
+          title: 'Resilient multimodal localisation for near-shore USVs',
+          description: "Fujian Provincial Guided Project — a multimodal fusion resilient positioning system for near-shore unmanned surface vessels (USVs).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fj-guided-usv-localization/";
+            },},{id: "projects-multimodal-fusion-resilient-localisation-in-gnss-denied-scenarios",
+          title: 'Multimodal fusion resilient localisation in GNSS-denied scenarios',
+          description: "University research start-up fund — key technologies for resilient multi-sensor positioning when satellite navigation is unavailable.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gnss-denied-localization/";
+            },},{id: "teachings-data-science-fundamentals",
+          title: 'Data Science Fundamentals',
+          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/data-science-fundamentals/";
+            },},{id: "teachings-introduction-to-machine-learning",
+          title: 'Introduction to Machine Learning',
+          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/introduction-to-machine-learning/";
+            },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/cv.pdf", "_blank");
+        },
+      },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%77%75%64%6F%6E%67%6A%69%65%63%68%6E@%6A%6D%75.%65%64%75.%63%6E", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/jackie2455", "_blank");
+        },
+      },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.cnblogs.com/jackie2455", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
