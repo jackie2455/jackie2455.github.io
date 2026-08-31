@@ -9,8 +9,8 @@ cv:
   social_networks:
     - network: GitHub
       username: jackie2455
-    - network: Email
-      username: wudongjiechn@jmu.edu.cn
+    - network: ORCID
+      username: 0000-0003-1407-5209
 
   address:
     city: Xiamen
@@ -41,7 +41,7 @@ cv:
 
     Projects:
       - name: Resilient multimodal localisation for near-shore unmanned surface vessels
-        summary: Fujian Provincial Guided Project (2024H0016). Research and development of a multimodal fusion resilient positioning system for near-shore unmanned surface vessels. 2024.05 - 2027.04. Principal investigator (PI).
+        summary: Fujian Provincial Guided Project (2024H0016). Research and development of a multimodal fusion resilient positioning system for near-shore USVs. 2024.05 - 2027.04. Principal investigator (PI).
         highlights:
           - Principal investigator, ongoing.
         start_date: 2024-05
