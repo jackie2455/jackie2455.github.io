@@ -1,7 +1,7 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file (replace with your real CV)
+cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file
 email: wudongjiechn@jmu.edu.cn # your email address
 github_username: jackie2455 # your GitHub username
 # rss_icon: true # uncomment to show the RSS icon in the footer
@@ -10,3 +10,7 @@ github_username: jackie2455 # your GitHub username
 # linkedin_username: # your LinkedIn username (optional)
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (international format)
+custom_social:
+  logo: fa-solid fa-blog # a Font Awesome icon class (or an image path/URL)
+  title: Blog (CNBlogs)
+  url: https://www.cnblogs.com/jackie2455

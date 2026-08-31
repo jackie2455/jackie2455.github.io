@@ -29,4 +29,6 @@ latest_posts:
 
 I am at the [School of Marine Engineering, Jimei University](https://www.jmu.edu.cn). My research focuses on **autonomous navigation technology for unmanned systems** and **artificial intelligence technology and its applications**.
 
+I also write a Chinese tech blog about my work and interests at [cnblogs.com/jackie2455](https://www.cnblogs.com/jackie2455).
+
 Feel free to contact me at **wudongjiechn@jmu.edu.cn** — I'm always happy to discuss research or collaboration.

@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 title: blog
-nav: true
+nav: false
 nav_order: 1
 pagination:
   enabled: true
@@ -15,6 +15,8 @@ pagination:
     before: 1 # The number of links before the current page
     after: 3 # The number of links after the current page
 ---
+
+> I post research notes and tutorials on this blog. For my more frequent Chinese blog, also visit **[cnblogs.com/jackie2455](https://www.cnblogs.com/jackie2455)**.
 
 <div class="post">
 
