@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Add an Image to Your Academic Homepage
-date: 2024-06-01 09:00:00 -0700
+date: 2026-08-31 00:00:00 +0000
 description: A short tutorial on adding images to an al-folio site — the profile picture on the homepage and inline images in posts.
 tags: tutorial images
 categories: sample-posts
