@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>School of Marine Engineering, Jimei University</a>. Lecturer.
+subtitle: <a href='https://mei.jmu.edu.cn/' target='_blank'>School of Marine Engineering, Jimei University</a>. Lecturer.
 
 profile:
   align: right
