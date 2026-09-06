@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jackie2455
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - jackie2455/jackie2455.github.io
+  - jackie2455/dsh-model-info-hint
+  - jackie2455/ROS_learn_summarize
+  - jackie2455/robot_pose_ekf
